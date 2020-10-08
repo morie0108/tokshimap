@@ -538,9 +538,7 @@ h3 {
         @extend .content-width;
         display: flex;
         justify-content: center;
-        & img {
-          height: auto;
-        }
+        height: 40%;
       }
 
       & .map-bg {
@@ -550,14 +548,14 @@ h3 {
       & .fade-item {
         position: absolute;
         opacity: 0;
-        top: 20%;
+        top: 26%;
         left: 8%;
         transition: all 2s;
       }
 
       & .fadein {
         opacity: 1;
-        top: 16%;
+        top: 20%;
         transform: translate(0, 0);
       }
 

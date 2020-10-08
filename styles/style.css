@@ -1566,10 +1566,7 @@ h3 {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-}
-
-#main-content .access__contens__map img {
-  height: auto;
+  height: 40%;
 }
 
 #main-content .access__contens .map-bg {
@@ -1579,7 +1576,7 @@ h3 {
 #main-content .access__contens .fade-item {
   position: absolute;
   opacity: 0;
-  top: 20%;
+  top: 26%;
   left: 8%;
   -webkit-transition: all 2s;
   transition: all 2s;
@@ -1587,7 +1584,7 @@ h3 {
 
 #main-content .access__contens .fadein {
   opacity: 1;
-  top: 16%;
+  top: 20%;
   -webkit-transform: translate(0, 0);
           transform: translate(0, 0);
 }
