@@ -1394,15 +1394,9 @@ h3 {
 }
 
 #main-content .course__banner .slideL {
-  -webkit-transform: translate(-600px);
-          transform: translate(-600px);
-  -webkit-transition: all 1s;
-  transition: all 1s;
-}
-
-#main-content .course__banner .slideR {
-  -webkit-transform: translate(600px);
-          transform: translate(600px);
+  overflow: hidden;
+  -webkit-transform: translate(-800px);
+          transform: translate(-800px);
   -webkit-transition: all 1s;
   transition: all 1s;
 }

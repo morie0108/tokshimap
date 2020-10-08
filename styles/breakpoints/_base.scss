@@ -404,13 +404,15 @@ h3 {
       }
 
       & .slideL {
-        transform: translate(-600px);
+        overflow: hidden;
+        transform: translate(-800px);
         transition: all 1s;
       }
-      & .slideR {
-        transform: translate(600px);
-        transition: all 1s;
-      }
+      // & .slideR {
+      //   overflow: hidden;
+      //   transform: translate(600px);
+      //   transition: all 1s;
+      // }
 
       & .show {
         transform: translate(0px, 0) !important;
