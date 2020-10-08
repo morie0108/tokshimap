@@ -336,6 +336,7 @@ h3 {
 
         & img {
           width: 48%;
+          height: 48%;
           @extend .mb-sm;
         }
         & p {
@@ -537,6 +538,9 @@ h3 {
         @extend .content-width;
         display: flex;
         justify-content: center;
+        & img {
+          height: auto;
+        }
       }
 
       & .map-bg {

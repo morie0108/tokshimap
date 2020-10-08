@@ -1339,6 +1339,7 @@ h3 {
 
 #main-content .pickUp__wrap__sub-content img {
   width: 48%;
+  height: 48%;
 }
 
 #main-content .pickUp__wrap__sub-content p {
@@ -1565,6 +1566,10 @@ h3 {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+#main-content .access__contens__map img {
+  height: auto;
 }
 
 #main-content .access__contens .map-bg {
