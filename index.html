@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title></title>
+    <meta name="description" content="This site is a test site." />
+    <link rel="icon" href="images/logo.png" />
+    <!-- <link rel="stylesheet" href="styles/loader.css" /> -->
+    <!-- <script src="scripts/vendors/pace.js"></script> -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kameron:wght@400;700&family=Noto+Sans+JP:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/vendors/bootstrap-reboot.css" />
+    <link rel="stylesheet" href="styles/vendors/swiper.min.css" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/css/lightbox.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="global-container">
+      <div id="container">
+        <header class="header">
+          <div class="header__inner">
+            <h1 class="logo item">
+              <img src="images/logo.png" alt="ロゴ" class="logo__img" />
+              <span class="logo__word">Tokushi まっぷ</span>
+              <span class="under-bar"></span>
+            </h1>
+            <nav class="header__nav">
+              <div id="nav-drawer">
+                <input id="nav-input" type="checkbox" class="nav-unshown" />
+                <label id="nav-open" for="nav-input">
+                  <span></span>
+                </label>
+                <label
+                  class="nav-unshown"
+                  id="nav-close"
+                  for="nav-input"
+                ></label>
+                <div id="nav-content">
+                  <ul class="header__ul">
+                    <li class="header__li item">- メニュー -</li>
+                    <li class="header__li item">
+                      <a href="#">Topics<span>></span></a>
+                    </li>
+                    <li class="header__li item">
+                      <a href="#">徳島の魅力<span>></span></a>
+                    </li>
+                    <li class="header__li item">
+                      <a href="#">おすすめコース<span>></span></a>
+                    </li>
+                    <li class="header__li item">
+                      <a href="#">阿波ニュース<span>></span></a>
+                    </li>
+                    <li class="header__li item">
+                      <a href="#">フォトギャラリー<span>></span></a>
+                    </li>
+                    <li class="header__li item">
+                      <a href="#">アクセス<span>></span></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+            <!-- <button class="mobile-menu__btn">
+              <span></span>
+              <span></span>
+              <span></span>
+            </button> -->
+          </div>
+        </header>
+        <div id="content">
+          <div id="main-content">
+            <!-- <aside class="side left">
+              <div class="side__inner">
+                <a class="twitter icon tween-animate-title" href="#">Twitter</a>
+                <a class="fb icon tween-animate-title" href="#">Facebook</a>
+              </div>
+            </aside> -->
+            <main>
+              <section class="main-visual">
+                <div class="visual">
+                  <div class="visual__copy fade-item">
+                    <p>
+                      <span>徳島で遊ぼ！</span
+                      ><br />ワクワクと<br />ドキドキの国へ
+                    </p>
+                  </div>
+                  <img src="images/img/kazurabashi.png" alt="かずら橋" />
+                </div>
+                <div class="introduction">
+                  <div class="introduction__copy">
+                    <p class="font-lr">遊びと癒しが<br />交差する国、徳島</p>
+                  </div>
+                  <div class="introduction__text">
+                    <p class="font-md">
+                      自然豊かな街には、<br />
+                      レジャー体験・グルメ・温泉など楽しめる要素が盛りだくさん！<br />
+                      新しい土地で素敵な出会いを。
+                    </p>
+                  </div>
+                </div>
+              </section>
+              <section class="topics">
+                <div class="title">
+                  <h2>Topics！-新着情報-</h2>
+                </div>
+                <div class="swiper-container">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <div class="topics__image">
+                        <img src="images/img/yaen.png" alt="野猿の画像" />
+                      </div>
+                      <div class="topics__text">
+                        <p class="topics__day">2020年10月10日</p>
+                        <h3 class="topics__title">
+                          紅葉×人力ロープウェイ 「野猿」開始
+                        </h3>
+                        <p class="content-text">
+                          紅葉と一緒に楽しめるアトラクション、「野猿」を今年も紅葉と一緒に楽しめまます！
+                        </p>
+                        <p class="topics__link">
+                          <a href="#">詳細はこちら>></a>
+                        </p>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="topics__image">
+                        <img src="images/img/aizome.png" alt="藍染の画像" />
+                      </div>
+                      <div class="topics__text">
+                        <p class="topics__day">2020年10月8日</p>
+                        <h3 class="topics__title">藍染め体験はじめました</h3>
+                        <p class="content-text">
+                          うだつの街並みでは、お店での藍染め体験をスタートしました
+                        </p>
+                        <p class="topics__link">
+                          <a href="#">詳細はこちら>></a>
+                        </p>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="topics__image">
+                        <img
+                          src="images/img/bisan.png"
+                          alt="眉山ロープウェイの画像"
+                        />
+                      </div>
+                      <div class="topics__text">
+                        <p class="topics__day">2020年9月28日</p>
+                        <h3 class="topics__title">
+                          紅葉の眉山をロープウェイで登ろう♪
+                        </h3>
+                        <p class="content-text">
+                          色付きはじめた、眉山をロープウェイで登りませんか？夜は夜景も綺麗です。
+                        </p>
+                        <p class="topics__link">
+                          <a href="#">続きはこちら>></a>
+                        </p>
+                      </div>
+                    </div>
+                    <!-- <div class="swiper-slide">
+                      <div class="topics__image">
+                        <img src="images/img/yaen.png" alt="の画像" />
+                      </div>
+                      <div class="topics__text">
+                        <p class="topics__day">2020年10月10日</p>
+                        <h3 class="topics__title"></h3>
+                        <p class="content-text"></p>
+                        <p class="topics__link">
+                          <a href="#">続きはこちら>></a>
+                        </p>
+                      </div>
+                    </div> -->
+                  </div>
+                  <div class="swiper-pagination"></div>
+                  <!-- <div class="swiper-button-prev"></div>
+                  <div class="swiper-button-next"></div> -->
+                </div>
+              </section>
+              <section class="pickUp" id="pickUpAnchor">
+                <div class="title">
+                  <h2>徳島いくんじょ〜！</h2>
+                </div>
+                <div class="pickUp__nav">
+                  <ul class="pickUp__nav__ul">
+                    <li class="pickUp__nav__li">
+                      <a href="#leisure">
+                        <div class="pickUp__nav__icon">
+                          <img
+                            src="images/icon/_i_icon_14068_icon_140681_256.png"
+                            alt="レジャーのアイコン"
+                          />
+                          <p>遊ぶ</p>
+                        </div>
+                      </a>
+                    </li>
+                    <li class="pickUp__nav__li">
+                      <a href="#gourmet">
+                        <div class="pickUp__nav__icon">
+                          <img
+                            src="images/icon/_i_icon_11333_icon_113331_256.png"
+                            alt="グルメのアイコン"
+                          />
+                          <p>グルメ</p>
+                        </div>
+                      </a>
+                    </li>
+                    <li class="pickUp__nav__li">
+                      <a href="#nature">
+                        <div class="pickUp__nav__icon">
+                          <img
+                            src="images/icon/_i_icon_14969_icon_149691_256.png"
+                            alt="自然のアイコン"
+                          />
+                          <p>自然</p>
+                        </div>
+                      </a>
+                    </li>
+                    <li class="pickUp__nav__li">
+                      <a href="#learn">
+                        <div class="pickUp__nav__icon">
+                          <img
+                            src="images/icon/_i_icon_14175_icon_141751_256.png"
+                            alt="学びのアイコン"
+                          />
+                          <p>学び</p>
+                        </div>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <div id="leisure" class="pickUp__wrap">
+                  <div class="pickUp__wrap__main-visual">
+                    <div class="pickUp__wrap__title fade-item">
+                      <h3>Leisure<br />- 遊びを満喫 -</h3>
+                    </div>
+                    <img src="images/img/diveing.png" alt="ダイビングの画像" />
+                  </div>
+                  <div class="pickUp__wrap__sub-content">
+                    <div class="pickUp__wrap__sub-content__left-img">
+                      <img
+                        src="images/img/Rafting2.png"
+                        alt="ラフティングの画像"
+                      />
+                      <p>
+                        知っとうと？
+                        徳島は世界大会も開催したことがるほどラフティングがさかん♪
+                      </p>
+                    </div>
+                    <div class="pickUp__wrap__sub-content__right-img">
+                      <img
+                        src="images/img/skydiveing.png"
+                        alt="スカイダイビングの画像"
+                      />
+                      <p>
+                        知っとうと？
+                        徳島は世界大会も開催したことがるほどラフティングがさかん♪
+                      </p>
+                    </div>
+                  </div>
+                  <div class="pickUp__wrap__text">
+                    <p>
+                      徳島では自然を存分に楽しむアクティビティーがたくさんあ
+                      ります。県南部ではシュノーケリング、県西部ではラフティ
+                      ング・パラグライダーを体験できます。家族で遊びを楽しむ
+                      なら徳島に決まりです。
+                    </p>
+                  </div>
+                </div>
+                <div id="gourmet" class="pickUp__wrap">
+                  <div class="pickUp__wrap__main-visual">
+                    <div class="pickUp__wrap__title fade-item">
+                      <h3>Gourmet<br />- 徳島を味わう -</h3>
+                    </div>
+                    <img
+                      src="images/img/dekomawashi.png"
+                      alt="でこまわしの画像"
+                    />
+                  </div>
+                  <div class="pickUp__wrap__sub-content">
+                    <div class="pickUp__wrap__sub-content__left-img">
+                      <img
+                        src="images/img/ramen.png"
+                        alt="徳島ラーメンの画像"
+                      />
+                      <p>
+                        知っとうと？
+                        徳島は世界大会も開催したことがるほどラフティングがさかん♪
+                      </p>
+                    </div>
+                    <div class="pickUp__wrap__sub-content__right-img">
+                      <img src="images/img/kaizoku.png" alt="海賊盛りの画像" />
+                      <p>
+                        知っとうと？
+                        徳島は世界大会も開催したことがるほどラフティングがさかん♪
+                      </p>
+                    </div>
+                  </div>
+                  <div class="pickUp__wrap__text">
+                    <p>
+                      徳島では自然を存分に楽しむアクティビティーがたくさんあ
+                      ります。県南部ではシュノーケリング、県西部ではラフティ
+                      ング・パラグライダーを体験できます。家族で遊びを楽しむ
+                      なら徳島に決まりです。
+                    </p>
+                  </div>
+                </div>
+                <div id="nature" class="pickUp__wrap">
+                  <div class="pickUp__wrap__main-visual">
+                    <div class="pickUp__wrap__title fade-item">
+                      <h3>Nature<br />- 自然と出会う -</h3>
+                    </div>
+                    <img src="images/img/iya02.png" alt="祖谷小便小僧の画像" />
+                  </div>
+                  <div class="pickUp__wrap__sub-content">
+                    <div class="pickUp__wrap__sub-content__left-img">
+                      <img
+                        src="images/img/uzushio01.png"
+                        alt="鳴門の渦潮の画像"
+                      />
+                      <p>
+                        知っとうと？
+                        徳島は世界大会も開催したことがるほどラフティングがさかん♪
+                      </p>
+                    </div>
+                    <div class="pickUp__wrap__sub-content__right-img">
+                      <img
+                        src="images/img/kazurabashi2.png"
+                        alt="かずら橋の画像"
+                      />
+                      <p>
+                        知っとうと？
+                        徳島は世界大会も開催したことがるほどラフティングがさかん♪
+                      </p>
+                    </div>
+                  </div>
+                  <div class="pickUp__wrap__text">
+                    <p>
+                      徳島では自然を存分に楽しむアクティビティーがたくさんあ
+                      ります。県南部ではシュノーケリング、県西部ではラフティ
+                      ング・パラグライダーを体験できます。家族で遊びを楽しむ
+                      なら徳島に決まりです。
+                    </p>
+                  </div>
+                </div>
+                <div id="learn" class="pickUp__wrap">
+                  <div class="pickUp__wrap__main-visual">
+                    <div class="pickUp__wrap__title fade-item">
+                      <h3>Learn<br />- 学びの国へ -</h3>
+                    </div>
+                    <img
+                      src="images/img/udatsu01.png"
+                      alt="うだつの街並みの画像"
+                    />
+                  </div>
+                  <div class="pickUp__wrap__sub-content">
+                    <div class="pickUp__wrap__sub-content__left-img">
+                      <img src="images/img/aizome.png" alt="藍染の画像" />
+                      <p>
+                        知っとうと？
+                        徳島は世界大会も開催したことがるほどラフティングがさかん♪
+                      </p>
+                    </div>
+                    <div class="pickUp__wrap__sub-content__right-img">
+                      <img
+                        src="images/img/otsuka.png"
+                        alt="大塚国際美術館の画像"
+                      />
+                      <p>
+                        知っとうと？
+                        徳島は世界大会も開催したことがるほどラフティングがさかん♪
+                      </p>
+                    </div>
+                  </div>
+                  <div class="pickUp__wrap__text">
+                    <p>
+                      徳島では自然を存分に楽しむアクティビティーがたくさんあ
+                      ります。県南部ではシュノーケリング、県西部ではラフティ
+                      ング・パラグライダーを体験できます。家族で遊びを楽しむ
+                      なら徳島に決まりです。
+                    </p>
+                  </div>
+                </div>
+              </section>
+              <section class="course" id="courseAnchor">
+                <div class="title">
+                  <h2>おすすめコース</h2>
+                </div>
+                <div class="course__contents">
+                  <div class="course__banner">
+                    <div class="course__banner__nature">
+                      <div class="course__banner__item slideL">
+                        <a href="#">
+                          <h3>自然と癒しの<br />県西部ネイチャーコース></h3>
+                          <img
+                            src="images/img/kazurabashi5.png"
+                            alt="県西部ネイチャーコースの紹介画像"
+                          />
+                        </a>
+                        <p>
+                          自然がたっぷり！県西部を中心に回るコースだじょ。
+                          温泉にも触れて癒されるんじょ♪
+                        </p>
+                      </div>
+                    </div>
+                    <div class="course__banner__active">
+                      <div class="course__banner__item slideR">
+                        <a href="#">
+                          <h3>遊びと学びの<br />県南部アクティブコース></h3>
+                          <img
+                            src="images/img/diveing2.png"
+                            alt="県南部アクティブコースの紹介画像"
+                          />
+                        </a>
+                        <p>
+                          自然がたっぷり！県西部を中心に回るコースだじょ。
+                          温泉にも触れて癒されるんじょ♪
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+              <section class="news" id="courseAnchor">
+                <div class="news__contents">
+                  <div class="title">
+                    <h2>阿波ニュース</h2>
+                  </div>
+                  <p>
+                    徳島の今を配信！<br />イベントや季節の情報をお知らせするじょ♪
+                  </p>
+                  <div class="time-line">
+                    <a
+                      class="twitter-timeline"
+                      data-lang="ja"
+                      data-width="320"
+                      data-height="400"
+                      data-theme="light"
+                      href="https://twitter.com/morisuke_daze?ref_src=twsrc%5Etfw"
+                      >Tweets by morisuke_daze</a
+                    >
+                    <script
+                      async
+                      src="https://platform.twitter.com/widgets.js"
+                      charset="utf-8"
+                    ></script>
+                  </div>
+                  <button>
+                    <div class="twitter-icon">
+                      <a href="https://twitter.com/morisuke_daze">
+                        <img
+                          src="images/icon/iconfinder_social_network_web_media_-32_2878030.png"
+                          alt="ツイッターのアイコン"
+                        />
+                      </a>
+                    </div>
+                  </button>
+                  <p class="twitter-text">
+                    News on twitter<br />Follow Tokushi map !
+                  </p>
+                </div>
+              </section>
+              <section class="photoGallery" id="photoGalleryAnchor">
+                <div class="title">
+                  <h2>フォトギャラリー</h2>
+                </div>
+                <div class="photoGallery__contents">
+                  <div class="photoGallery__contents__img">
+                    <a
+                      href="images/img/iyakyou1.png"
+                      data-lightbox="abc"
+                      data-title="祖谷渓"
+                    >
+                      <img src="images/img/iyakyou1.png" alt="祖谷渓の画像" />
+                    </a>
+                    <a
+                      href="images/img/awaodori.png"
+                      data-lightbox="abc"
+                      data-title="阿波踊り"
+                    >
+                      <img src="images/img/awaodori.png" alt="阿波踊りの画像" />
+                    </a>
+                    <a
+                      href="images/img/sobagome.png"
+                      data-lightbox="abc"
+                      data-title="そば米汁"
+                    >
+                      <img src="images/img/sobagome.png" alt="そば米汁の画像" />
+                    </a>
+                    <a
+                      href="images/img/bus.png"
+                      data-lightbox="abc"
+                      data-title="祖谷のバス"
+                    >
+                      <img src="images/img/bus.png" alt="祖谷バスの画像" />
+                    </a>
+                    <a
+                      href="images/img/kazurabashi3.png"
+                      data-lightbox="abc"
+                      data-title="かずら橋"
+                    >
+                      <img
+                        src="images/img/kazurabashi3.png"
+                        alt="かずら橋の画像"
+                      />
+                    </a>
+                    <a
+                      href="images/img/ohama01.png"
+                      data-lightbox="abc"
+                      data-title="大浜海岸（うみがめの産卵地）"
+                    >
+                      <img src="images/img/ohama01.png" alt="大浜海岸の画像" />
+                    </a>
+                  </div>
+                  <button>
+                    <div class="photoGallery__contents__btn">
+                      <a href="#">
+                        <p>もっと見る ></p>
+                      </a>
+                    </div>
+                  </button>
+                </div>
+              </section>
+              <section class="access" id="accessAnchor">
+                <div class="title">
+                  <h2>アクセス</h2>
+                </div>
+                <div class="access__contens">
+                  <div class="access__contens__introduction">
+                    <div class="introduction__copy">
+                      東京から<br />
+                      飛行機で約1時間。<br />
+                      願えばすぐそこに
+                    </div>
+                    <div class="introduction__text">
+                      東京からは徳島県までは、飛行機で約1時間、大阪からは車・高速バスで約3時間の距離の距離です。
+                    </div>
+                  </div>
+                  <div class="access__contens__map fade-item">
+                    <img src="images/img/map3.png" alt="徳島のマップ" />
+                  </div>
+                  <div class="map-bg"></div>
+                  <div class="access__contens__info">
+                    <div class="access__contens__info__text">
+                      <h2>徳島市（県東部）から各観光エリアへ</h2>
+                      <ul>
+                        <li><h3>■海部方面（県南部）</h3></li>
+                        <li>車…国道55号線 約2時間</li>
+                        <li>電車…徳島駅 → 牟岐駅 → 海部駅 経由約2時間</li>
+                      </ul>
+                      <ul>
+                        <li>
+                          <h3>■祖谷方面（県西部）</h3>
+                        </li>
+                        <li>車…徳島自動車道 → 井川池田IC下車 経由約2時間</li>
+                        <li>電車…徳島駅 → 大歩危駅 経由約2時間</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </section>
+            </main>
+            <aside class="side right">
+              <div class="side__inner">
+                <span class="tween-animate-title">&copy; </span>
+              </div>
+            </aside>
+          </div>
+        </div>
+        <footer class="footer">
+          <div class="logo">
+            <img src="images/logo.png" alt="ロゴ" class="logo__img" />
+            <span class="logo__word">Tokushi まっぷ</span>
+            <span class="under-bar"></span>
+          </div>
+          <nav class="footer__nav">
+            <ul class="footer__ul">
+              <li class="footer__li"><a href="#">徳島の魅力</a></li>
+              <li class="footer__li"><a href="#">おすすめコース</a></li>
+              <li class="footer__li">
+                <a href="#">阿波ニュース（Twitter）</a>
+              </li>
+              <li class="footer__li"><a href="#">フォトギャラリー</a></li>
+              <li class="footer__li"><a href="#">アクセス</a></li>
+              <li class="footer__li"><a href="#">お問い合わせ</a></li>
+            </ul>
+          </nav>
+          <div class="footer__copywright">&copy; Tokushi Map</div>
+        </footer>
+      </div>
+      <nav class="mobile-menu">
+        <!-- <div class="logo">
+          <img src="images/logo.png" alt="" class="logo__img" />
+          <span class=""></span>
+        </div> -->
+        <ul class="mobile-menu__main">
+          <li class="mobile-menu__item">
+            <a class="mobile-menu__link" href="#">
+              <span class="main-title"></span>
+              <span class="sub-title"></span>
+            </a>
+          </li>
+          <li class="mobile-menu__item">
+            <a class="mobile-menu__link" href="#">
+              <span class="main-title"></span>
+              <span class="sub-title"></span>
+            </a>
+          </li>
+          <li class="mobile-menu__item">
+            <a class="mobile-menu__link" href="#">
+              <span class="main-title"></span>
+              <span class="sub-title"></span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <script src="scripts/vendors/swiper.min.js"></script>
+    <!-- <script src="scripts/vendors/TweenMax.min.js"></script>
+    <script src="scripts/vendors/scroll-polyfill.js"></script>
+    <script src="scripts/libs/scroll.js"></script>
+    <script src="scripts/libs/text-animation.js"></script> -->
+    <script src="scripts/libs/hero-slider.js"></script>
+    <!-- <script src="scripts/libs/mobile-menu.js"></script>
+    <script src="scripts/main.js"></script> -->
+    <script src="scripts/libs/fadein.js"></script>
+    <script src="scripts/libs/slider.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-1.12.4.min.js"
+      type="text/javascript"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/js/lightbox.min.js"
+      type="text/javascript"
+    ></script>
+  </body>
+</html>
