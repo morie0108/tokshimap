@@ -140,18 +140,19 @@ h3 {
     &__word {
       font-size: 24px;
       border-bottom: solid #eb832a 1px;
+      position: relative;
+    }
+    & span:after {
+      content: "";
+      position: absolute;
+      border-bottom: solid 2px #144d79;
+      height: 2px; /*線の太さ*/
+      width: 100%;
+      left: 0px;
+      top: 114%;
     }
   }
-  & .under-bar {
-    background: #144d79;
-    height: 2px; /*線の太さ*/
-    width: 169px; /*長さ*/
-    border-radius: 3px;
-    display: block;
-    position: absolute;
-    right: 0;
-    bottom: 4px;
-  }
+
   &__nav {
     position: absolute;
     right: 10px;

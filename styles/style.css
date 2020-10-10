@@ -1131,19 +1131,18 @@ h3 {
 .header .logo__word {
   font-size: 24px;
   border-bottom: solid #eb832a 1px;
+  position: relative;
 }
 
-.header .under-bar {
-  background: #144d79;
+.header .logo span:after {
+  content: "";
+  position: absolute;
+  border-bottom: solid 2px #144d79;
   height: 2px;
   /*線の太さ*/
-  width: 169px;
-  /*長さ*/
-  border-radius: 3px;
-  display: block;
-  position: absolute;
-  right: 0;
-  bottom: 4px;
+  width: 100%;
+  left: 0px;
+  top: 114%;
 }
 
 .header__nav {
