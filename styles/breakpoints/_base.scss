@@ -222,10 +222,11 @@ h3 {
       @extend .content-width;
       display: flex;
       justify-content: center;
+      height: auto;
 
-      // & img {
-      //   height: 80%;
-      // }
+      & img {
+        align-self: flex-start;
+      }
     }
     &__text {
       @extend .content-width;

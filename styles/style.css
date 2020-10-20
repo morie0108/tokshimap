@@ -1210,6 +1210,12 @@ h3 {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  height: auto;
+}
+
+#main-content .topics__image img {
+  -ms-flex-item-align: start;
+      align-self: flex-start;
 }
 
 #main-content .topics__text {
