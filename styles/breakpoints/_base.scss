@@ -196,17 +196,18 @@ h3 {
         font-weight: 600;
         height: 100px;
         margin: auto;
-        width: 140px;
+        width: 40%;
 
         & p {
           margin: 30px 10px;
+          padding-left: 4%;
         }
       }
       &__text {
         color: $cWhite;
         height: 90px;
         margin: auto;
-        width: 200px;
+        width: 50%;
         & p {
           margin: 10px 4px;
         }
@@ -222,9 +223,9 @@ h3 {
       display: flex;
       justify-content: center;
 
-      & img {
-        height: 200px;
-      }
+      // & img {
+      //   height: 80%;
+      // }
     }
     &__text {
       @extend .content-width;
@@ -254,6 +255,8 @@ h3 {
 
     &__nav {
       height: 100px;
+      display: flex;
+      justify-content: center;
       &__ul {
         display: flex;
         justify-content: space-between;
@@ -263,8 +266,9 @@ h3 {
       &__li {
         cursor: pointer;
         position: relative;
+        margin: 8px;
         background-color: $cWhite;
-        border-radius: 50px;
+        border-radius: 50%;
         width: 72px;
         height: 72px;
         box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 1);
@@ -298,8 +302,7 @@ h3 {
       }
     }
     & #leisure {
-      background-color: #06365c;
-      color: $cWhite;
+      background-color: $cBeige;
     }
     & #gourmet {
       background-color: $cWhite;
@@ -308,7 +311,7 @@ h3 {
     //   background-color: $cGray;
     // }
     & #learn {
-      background-color: $cRGreen;
+      background-color: $cBeige;
     }
 
     &__wrap {
@@ -371,6 +374,12 @@ h3 {
       @extend .content-width;
       @extend .font-md;
     }
+    & .title {
+      & p {
+        @extend .font-md;
+        text-align: center;
+      }
+    }
 
     &__banner {
       &__nature,
@@ -426,6 +435,7 @@ h3 {
       @extend .content-width;
       & p {
         @extend .font-md;
+        text-align: center;
       }
       & .time-line {
         display: flex;
@@ -516,7 +526,8 @@ h3 {
         & .introduction {
           display: flex;
           justify-content: space-between;
-          height: 145px;
+          flex-direction: row;
+          // height: 800px;
 
           &__copy {
             @extend .font-lr;
@@ -524,6 +535,7 @@ h3 {
             display: flex;
             align-items: center;
             padding: 2%;
+            height: 100px;
             width: 46%;
           }
           &__text {
@@ -531,10 +543,16 @@ h3 {
             color: $cBlack;
             display: flex;
             align-items: center;
+            height: 100px;
             width: 54%;
             padding: 3%;
           }
         }
+      }
+      & .access-1280 {
+        display: flex;
+        flex-direction: row;
+        height: 160px;
       }
 
       &__map {
@@ -558,12 +576,12 @@ h3 {
 
       & .fadein {
         opacity: 1;
-        top: 20%;
+        top: 100px;
         transform: translate(0, 0);
       }
 
       &__info {
-        padding-top: 4px;
+        padding-top: 50px;
         background-color: $cRGreen;
         display: flex;
         justify-content: center;
@@ -601,9 +619,7 @@ h3 {
   & .logo {
     position: relative;
     text-align: center;
-    margin: 0 auto;
     bottom: 5px;
-    width: 300px;
 
     &__img {
       width: 2em;
@@ -611,6 +627,16 @@ h3 {
     &__word {
       font-size: 24px;
       border-bottom: solid #eb832a 1px;
+      position: relative;
+    }
+    & span:after {
+      content: "";
+      position: absolute;
+      border-bottom: solid 2px #144d79;
+      height: 2px; /*線の太さ*/
+      width: 100%;
+      left: 0px;
+      top: 114%;
     }
   }
   & .under-bar {
@@ -642,5 +668,31 @@ h3 {
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+}
+.arrow {
+  position: fixed;
+  bottom: 10px;
+  right: 40px;
+  z-index: 400;
+
+  &__img {
+    position: relative;
+    width: 32px;
+    height: 32px;
+    background-color: white;
+    border-radius: 50%;
+    box-shadow: 2px 2px;
+
+    & img {
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      position: absolute;
+      width: 16px;
+      height: 16px;
+      margin: auto;
+    }
   }
 }

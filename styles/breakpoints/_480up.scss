@@ -3,3 +3,272 @@
 Stylesheet: 480px以上(スマホの横向き)のモニタで適用
 
 ******************************************************************/
+
+.font-sm {
+  font-size: 16px;
+}
+.font-md {
+  font-size: 18px;
+}
+.font-lr {
+  font-size: 22px;
+}
+.font-lg {
+  font-size: 24px;
+}
+.mb-sm {
+  margin-bottom: 30px !important;
+}
+.pb-sm {
+  padding-bottom: 24px !important;
+}
+
+.img-copy {
+  padding: 20px;
+  left: 2%;
+}
+.pd-mb {
+  padding: 12px;
+  margin-bottom: 10;
+}
+
+.swiper-container {
+  width: 100%;
+}
+
+.header {
+  padding: 20px;
+  height: 80px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+}
+
+#main-content {
+  & .main-visual {
+    & .introduction {
+      height: 200px;
+
+      &__copy {
+        height: 140px;
+        margin: auto;
+        width: 40%;
+        display: flex;
+        align-items: center;
+        & p {
+          padding-left: 10%;
+        }
+      }
+      &__text {
+        height: 140px;
+        & p {
+          margin: 10px 4px;
+        }
+      }
+    }
+  }
+
+  & .pickUp {
+    background-color: $cGray;
+    color: $cBlack;
+
+    &__nav {
+      height: 150px;
+      display: flex;
+      justify-content: center;
+
+      & ul {
+        width: 84%;
+      }
+
+      &__li {
+        width: 100px;
+        height: 100px;
+
+        &:hover {
+          top: 2px;
+        }
+
+        & img {
+          width: 36px;
+        }
+      }
+      & p {
+        font-size: 16px;
+      }
+    }
+    &__wrap {
+      &__main-visual {
+        img {
+          padding-top: 60px;
+        }
+      }
+
+      &__sub-content {
+        & img {
+          width: 48%;
+          height: 48%;
+        }
+        & p {
+          padding: 18px;
+        }
+      }
+      &__text {
+        padding-bottom: 20px;
+      }
+    }
+  }
+
+  & .course {
+    &__banner {
+      & h3 {
+        margin-bottom: 0;
+        text-align: start;
+      }
+
+      &__active {
+        padding-bottom: 30px;
+        & h3 {
+          top: 46%;
+          left: 54%;
+          bottom: 26%;
+          right: 2%;
+        }
+      }
+
+      // & p {
+      //   margin-top: 10px;
+      //   margin-bottom: 30px;
+      // }
+
+      // & .slideL {
+      //   transform: translate(-800px);
+      // }
+      // & .show {
+      //   transform: translate(0px, 0) !important;
+      // }
+    }
+  }
+  & .news {
+    & button {
+      & .twitter-icon {
+        margin-top: 18px;
+      }
+    }
+  }
+
+  .photoGallery {
+    background-color: $cRGreen;
+
+    &__contents {
+      & button {
+        margin: 30px auto;
+        width: 280px;
+        height: 54px;
+      }
+    }
+  }
+
+  & .access {
+    &__contens {
+      &__introduction {
+        & .introduction {
+          // height: 145px;
+
+          &__copy {
+            height: 150px;
+            width: 40%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+          }
+          &__text {
+            height: 150px;
+            width: 54%;
+            padding: 3%;
+          }
+        }
+      }
+
+      &__map {
+        display: flex;
+        justify-content: center;
+        height: 48%;
+      }
+
+      & .map-bg {
+        height: 680px;
+      }
+
+      & .fade-item {
+        top: 26%;
+        left: 8%;
+      }
+
+      & .fadein {
+        top: 14%;
+      }
+
+      // &__info {
+      //   padding-top: 4px;
+      //   background-color: $cRGreen;
+      //   display: flex;
+      //   justify-content: center;
+      //   &__text {
+      //     background-color: $cWhite;
+      //     margin: 4%;
+      //     padding: 3%;
+
+      //     & h2 {
+      //       margin-bottom: 6px;
+      //     }
+      //     & h3 {
+      //       margin-bottom: 4px;
+      //     }
+      //     & ul {
+      //       padding-left: 0;
+      //     }
+      //   }
+      // }
+    }
+  }
+}
+
+.footer {
+  &__nav {
+    & ul {
+      padding-top: 10px;
+      padding-left: 24%;
+      & li {
+        width: 40%;
+      }
+    }
+  }
+}
+.arrow {
+  position: fixed;
+  bottom: 10px;
+  right: 40px;
+  z-index: 400;
+
+  &__img {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 50%;
+    box-shadow: 2px 2px;
+
+    & img {
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      position: absolute;
+      width: 28px;
+      height: 28px;
+      margin: auto;
+    }
+  }
+}
